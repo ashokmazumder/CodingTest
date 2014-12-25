@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8e4e5d84-3083-4bba-8e10-1721785cbafe" name="ashok.majumder@CHELT0304 2014-12-25 16:10:11" runUser="CORP\ashok.majumder" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c17585ab-bac9-4721-bb24-d025c851577c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ashok.majumder_CHELT0304 2014-12-25 16_10_11">
+      <DeploymentItem filename="D:\CodingTest\CodingTest\TestFramework\bin\Debug\TestFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-25T16:10:11.3604376+05:30" queuing="2014-12-25T16:10:12.0946478+05:30" start="2014-12-25T16:10:12.2093104+05:30" finish="2014-12-25T16:11:02.5875538+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Able_To_LaunchApplication_In_IE" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="0dff4423-71b2-b249-a96b-2c4c39e2bcd4">
+      <Execution id="d52ec07f-e2c1-44d7-9d2f-6bffa65982da" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Able_To_LaunchApplication_In_IE" />
+    </UnitTest>
+    <UnitTest name="AddTwoFloatNumber" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="75a2aa73-5963-9cff-214a-bcdfc9d448d7">
+      <Execution id="86d9fe81-42ee-44a3-a97e-d6aab71b6a51" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoFloatNumber" />
+    </UnitTest>
+    <UnitTest name="Able_To_LaunchApplication_In_Firefox" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="e574ea86-ce58-1bc3-18ed-6256a8419ea7">
+      <Execution id="01990cc9-b6cd-4b90-8d30-dee847a62067" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Able_To_LaunchApplication_In_Firefox" />
+    </UnitTest>
+    <UnitTest name="AddTwoInteger" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="9a20c1b5-5e7f-f1e6-0a25-f6296eb304d5">
+      <Execution id="7b4feea3-2685-46e9-9634-fd1def80f8f9" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoInteger" />
+    </UnitTest>
+    <UnitTest name="Able_To_LaunchApplication_In_Chrome" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="c2a98bfe-7249-2b3d-1309-042004bcc94c">
+      <Execution id="7c92cb14-73e2-4587-936e-cc64400bfec4" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Able_To_LaunchApplication_In_Chrome" />
+    </UnitTest>
+    <UnitTest name="AddTwoDoubleNumber" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="771074cc-1157-d121-49ab-2c1c12bfa98f">
+      <Execution id="e6cd359c-58e2-4a58-a627-467131693bf3" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoDoubleNumber" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0dff4423-71b2-b249-a96b-2c4c39e2bcd4" executionId="d52ec07f-e2c1-44d7-9d2f-6bffa65982da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75a2aa73-5963-9cff-214a-bcdfc9d448d7" executionId="86d9fe81-42ee-44a3-a97e-d6aab71b6a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="771074cc-1157-d121-49ab-2c1c12bfa98f" executionId="e6cd359c-58e2-4a58-a627-467131693bf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a20c1b5-5e7f-f1e6-0a25-f6296eb304d5" executionId="7b4feea3-2685-46e9-9634-fd1def80f8f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2a98bfe-7249-2b3d-1309-042004bcc94c" executionId="7c92cb14-73e2-4587-936e-cc64400bfec4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e574ea86-ce58-1bc3-18ed-6256a8419ea7" executionId="01990cc9-b6cd-4b90-8d30-dee847a62067" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d52ec07f-e2c1-44d7-9d2f-6bffa65982da" testId="0dff4423-71b2-b249-a96b-2c4c39e2bcd4" testName="Able_To_LaunchApplication_In_IE" computerName="CHELT0304" duration="00:00:00.0734363" startTime="2014-12-25T16:10:12.2173180+05:30" endTime="2014-12-25T16:10:12.4574759+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d52ec07f-e2c1-44d7-9d2f-6bffa65982da">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.CodingTests.Able_To_LaunchApplication_In_IE threw exception: 
+OpenQA.Selenium.DriverServiceNotFoundException: The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+TestCleanup method Tests.CodingTests.CleanUp threw exception. System.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.IE.InternetExplorerDriverService.CreateDefaultService()
+   at OpenQA.Selenium.IE.InternetExplorerDriver..ctor()
+   at TestFramework.Browser.GetWebBrowser(String browser) in D:\CodingTest\CodingTest\TestFramework\Browser.cs:line 22
+   at TestFramework.Calculator.AdditionPage.GetBrowser(String browserName) in D:\CodingTest\CodingTest\TestFramework\Calculator.cs:line 16
+   at Tests.CodingTests.Able_To_LaunchApplication_In_IE() in D:\CodingTest\CodingTest\Tests\CodingTests.cs:line 29
+
+TestCleanup Stack Trace
+    at TestFramework.Browser.Close() in D:\CodingTest\CodingTest\TestFramework\Browser.cs:line 39
+   at Tests.CodingTests.CleanUp() in D:\CodingTest\CodingTest\Tests\CodingTests.cs:line 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86d9fe81-42ee-44a3-a97e-d6aab71b6a51" testId="75a2aa73-5963-9cff-214a-bcdfc9d448d7" testName="AddTwoFloatNumber" computerName="CHELT0304" duration="00:00:07.5729663" startTime="2014-12-25T16:10:12.4614780+05:30" endTime="2014-12-25T16:10:20.0424899+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86d9fe81-42ee-44a3-a97e-d6aab71b6a51">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6cd359c-58e2-4a58-a627-467131693bf3" testId="771074cc-1157-d121-49ab-2c1c12bfa98f" testName="AddTwoDoubleNumber" computerName="CHELT0304" duration="00:00:07.2108604" startTime="2014-12-25T16:10:20.0504952+05:30" endTime="2014-12-25T16:10:27.2724884+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6cd359c-58e2-4a58-a627-467131693bf3">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b4feea3-2685-46e9-9634-fd1def80f8f9" testId="9a20c1b5-5e7f-f1e6-0a25-f6296eb304d5" testName="AddTwoInteger" computerName="CHELT0304" duration="00:00:07.5756060" startTime="2014-12-25T16:10:27.2844969+05:30" endTime="2014-12-25T16:10:34.8704928+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b4feea3-2685-46e9-9634-fd1def80f8f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c92cb14-73e2-4587-936e-cc64400bfec4" testId="c2a98bfe-7249-2b3d-1309-042004bcc94c" testName="Able_To_LaunchApplication_In_Chrome" computerName="CHELT0304" duration="00:00:07.1755711" startTime="2014-12-25T16:10:34.8804938+05:30" endTime="2014-12-25T16:10:42.0664948+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c92cb14-73e2-4587-936e-cc64400bfec4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Tests.CodingTests.Able_To_LaunchApplication_In_Chrome() in D:\CodingTest\CodingTest\Tests\CodingTests.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01990cc9-b6cd-4b90-8d30-dee847a62067" testId="e574ea86-ce58-1bc3-18ed-6256a8419ea7" testName="Able_To_LaunchApplication_In_Firefox" computerName="CHELT0304" duration="00:00:20.4526484" startTime="2014-12-25T16:10:42.0784969+05:30" endTime="2014-12-25T16:11:02.5415497+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01990cc9-b6cd-4b90-8d30-dee847a62067">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Tests.CodingTests.Able_To_LaunchApplication_In_Firefox() in D:\CodingTest\CodingTest\Tests\CodingTests.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

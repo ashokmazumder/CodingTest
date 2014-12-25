@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b58684bc-e9a3-463d-b735-bf59cd0e686c" name="ashok.majumder@CHELT0304 2014-12-25 16:48:57" runUser="CORP\ashok.majumder" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c17585ab-bac9-4721-bb24-d025c851577c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ashok.majumder_CHELT0304 2014-12-25 16_48_57">
+      <DeploymentItem filename="D:\CodingTest\CodingTest\TestFramework\bin\Debug\TestFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-25T16:48:57.0712123+05:30" queuing="2014-12-25T16:48:57.0852226+05:30" start="2014-12-25T16:48:57.0902259+05:30" finish="2014-12-25T16:49:42.8827366+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddTwoInteger" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="9a20c1b5-5e7f-f1e6-0a25-f6296eb304d5">
+      <Execution id="a6568ae2-0038-4240-8d52-28b96a31ffed" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoInteger" />
+    </UnitTest>
+    <UnitTest name="Able_To_LaunchApplication_In_Chrome" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="c2a98bfe-7249-2b3d-1309-042004bcc94c">
+      <Execution id="12a1e7df-ed9c-49f2-90ad-beaeec4b8e3b" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Able_To_LaunchApplication_In_Chrome" />
+    </UnitTest>
+    <UnitTest name="AddTwoFloatNumber" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="75a2aa73-5963-9cff-214a-bcdfc9d448d7">
+      <Execution id="9446c23f-d5e6-445f-8286-2021d5a8a827" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoFloatNumber" />
+    </UnitTest>
+    <UnitTest name="AddTwoDoubleNumber" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="771074cc-1157-d121-49ab-2c1c12bfa98f">
+      <Execution id="079e8d8c-501f-410b-877a-e947b9e34da8" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoDoubleNumber" />
+    </UnitTest>
+    <UnitTest name="Able_To_LaunchApplication_In_Firefox" storage="d:\codingtest\codingtest\tests\bin\debug\tests.dll" id="e574ea86-ce58-1bc3-18ed-6256a8419ea7">
+      <Execution id="18c098a0-4fd5-4c46-be28-ad6e875cb5d5" />
+      <TestMethod codeBase="D:/CodingTest/CodingTest/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CodingTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Able_To_LaunchApplication_In_Firefox" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="75a2aa73-5963-9cff-214a-bcdfc9d448d7" executionId="9446c23f-d5e6-445f-8286-2021d5a8a827" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="771074cc-1157-d121-49ab-2c1c12bfa98f" executionId="079e8d8c-501f-410b-877a-e947b9e34da8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a20c1b5-5e7f-f1e6-0a25-f6296eb304d5" executionId="a6568ae2-0038-4240-8d52-28b96a31ffed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2a98bfe-7249-2b3d-1309-042004bcc94c" executionId="12a1e7df-ed9c-49f2-90ad-beaeec4b8e3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e574ea86-ce58-1bc3-18ed-6256a8419ea7" executionId="18c098a0-4fd5-4c46-be28-ad6e875cb5d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9446c23f-d5e6-445f-8286-2021d5a8a827" testId="75a2aa73-5963-9cff-214a-bcdfc9d448d7" testName="AddTwoFloatNumber" computerName="CHELT0304" duration="00:00:08.3564372" startTime="2014-12-25T16:48:57.1012336+05:30" endTime="2014-12-25T16:49:05.5804235+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9446c23f-d5e6-445f-8286-2021d5a8a827">
+    </UnitTestResult>
+    <UnitTestResult executionId="079e8d8c-501f-410b-877a-e947b9e34da8" testId="771074cc-1157-d121-49ab-2c1c12bfa98f" testName="AddTwoDoubleNumber" computerName="CHELT0304" duration="00:00:09.4358376" startTime="2014-12-25T16:49:05.5854269+05:30" endTime="2014-12-25T16:49:15.0282701+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="079e8d8c-501f-410b-877a-e947b9e34da8">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6568ae2-0038-4240-8d52-28b96a31ffed" testId="9a20c1b5-5e7f-f1e6-0a25-f6296eb304d5" testName="AddTwoInteger" computerName="CHELT0304" duration="00:00:07.5624870" startTime="2014-12-25T16:49:15.0332533+05:30" endTime="2014-12-25T16:49:22.6021278+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6568ae2-0038-4240-8d52-28b96a31ffed">
+    </UnitTestResult>
+    <UnitTestResult executionId="12a1e7df-ed9c-49f2-90ad-beaeec4b8e3b" testId="c2a98bfe-7249-2b3d-1309-042004bcc94c" testName="Able_To_LaunchApplication_In_Chrome" computerName="CHELT0304" duration="00:00:09.1143147" startTime="2014-12-25T16:49:22.6071312+05:30" endTime="2014-12-25T16:49:31.7284253+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a1e7df-ed9c-49f2-90ad-beaeec4b8e3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="18c098a0-4fd5-4c46-be28-ad6e875cb5d5" testId="e574ea86-ce58-1bc3-18ed-6256a8419ea7" testName="Able_To_LaunchApplication_In_Firefox" computerName="CHELT0304" duration="00:00:11.1241903" startTime="2014-12-25T16:49:31.7344109+05:30" endTime="2014-12-25T16:49:42.8647242+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18c098a0-4fd5-4c46-be28-ad6e875cb5d5">
+    </UnitTestResult>
+  </Results>
+</TestRun>
