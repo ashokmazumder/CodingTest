@@ -10,7 +10,7 @@ namespace Tests
         [TestMethod]
         public void AddTwoInteger()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
+            Calculator.AdditionPage.GetBrowser("Firefox");
             Calculator.AdditionPage.AddTwoIntegerNumber(2, 3);
             Calculator.AdditionPage.LoadUrl();
             Assert.AreEqual(Calculator.AdditionPage.GetResult(), Convert.ToString(5));
@@ -19,7 +19,7 @@ namespace Tests
         [TestMethod]
         public void AddTwoFloatNumber()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
+            Calculator.AdditionPage.GetBrowser("Firefox");
             Calculator.AdditionPage.AddTwoFloatNum(1 / 2, 2 / 3);
             Calculator.AdditionPage.LoadUrl();
             Calculator.AdditionPage.GetResult();
@@ -28,7 +28,7 @@ namespace Tests
         [TestMethod]
         public void AddTwoDoubleNumber()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
+            Calculator.AdditionPage.GetBrowser("Firefox");
             Calculator.AdditionPage.AddTwoDoubleNumber(2.5, 7.5);
             Calculator.AdditionPage.LoadUrl();
             Assert.AreEqual(Calculator.AdditionPage.GetResult(), Convert.ToString(10));
