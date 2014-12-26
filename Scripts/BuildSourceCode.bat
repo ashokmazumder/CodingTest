@@ -4,5 +4,5 @@ REM Build Solution
 msbuild.exe "%WORKSPACE%\TestFramework\TestFramework.sln" /t:Rebuild /p:Configuration=Release /m
 
 REM Copy browser driver to bin directory
-xcopy.exe "%WORKSPACE%\Resources\chromedriver.exe" "%WORKSPACE%\Tests\bin\Debug\" /E /I /Y
-xcopy.exe "%WORKSPACE%\Resources\IEDriverServer.exe" "%WORKSPACE%\Tests\bin\Debug\" /E /I /Y
+xcopy.exe "%WORKSPACE%\Resources\chromedriver.exe" "%WORKSPACE%\Tests\bin\Release\" /E /I /Y
+xcopy.exe "%WORKSPACE%\Resources\IEDriverServer.exe" "%WORKSPACE%\Tests\bin\Release\" /E /I /Y
