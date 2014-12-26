@@ -1,14 +1,14 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 namespace TestFramework
 {
-    public static class Browser
+    internal static class Browser
     {
-        public static IWebDriver webDriver;
+        private static IWebDriver webDriver;
 
-        public static void GetWebBrowser(string browser)
+        internal static void GetWebBrowser(string browser)
         {
             switch (browser)
             {
@@ -24,23 +24,23 @@ namespace TestFramework
             }
         }
 
-        public static void LoadUrl(string url)
+        internal static void LoadUrlToWebBrowser(string url)
         {
             webDriver.Url = url;
         }
 
-        public static string Title
+        internal static string Title
         {
             get { return webDriver.Title; }
         }
 
-        public static void Close()
+        internal static void CloseBrowser()
         {
             webDriver.Close();
             webDriver.Dispose();
         }
 
-        internal static string FindResult()
+        internal static string GetResult()
         {
             IWebElement resultWebElement;
             resultWebElement = webDriver.FindElement(By.TagName("body"));
