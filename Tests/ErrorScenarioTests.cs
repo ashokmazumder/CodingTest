@@ -10,7 +10,7 @@ namespace Tests
         [TestMethod]
         public void AddTwoString()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
+            Calculator.AdditionPage.GetBrowser("Firefox");
             Calculator.AdditionPage.AddTwoString("abc", "xyz");
             Calculator.AdditionPage.LoadUrl();
             Assert.AreEqual(Calculator.AdditionPage.GetResult(),"answer");
@@ -19,7 +19,7 @@ namespace Tests
         [TestMethod]
         public void PerformAddWithOneElement()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
+            Calculator.AdditionPage.GetBrowser("Firefox");
             Calculator.AdditionPage.PerformAddWithOneElement(2);
             Calculator.AdditionPage.LoadUrl();
             Assert.AreEqual(Calculator.AdditionPage.GetResult(), Convert.ToString(2));
@@ -27,7 +27,7 @@ namespace Tests
         [TestMethod]
         public void AddTwoNumberWhenOperatorMissing()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
+            Calculator.AdditionPage.GetBrowser("Firefox");
             Calculator.AdditionPage.AddTwoNumberWhenOperatorMissing(2, 5);
             Calculator.AdditionPage.LoadUrl();
             Assert.AreEqual(Calculator.AdditionPage.GetResult(), Convert.ToString(25));
