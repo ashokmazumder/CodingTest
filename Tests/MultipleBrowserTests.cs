@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestFramework;
 
 namespace Tests
@@ -9,26 +9,26 @@ namespace Tests
         [TestMethod]
         public void Able_To_LaunchApplication_In_Chrome()
         {
-            Calculator.AdditionPage.GetBrowser("Chrome");
-            Calculator.AdditionPage.LoadUrl();
-            Assert.IsTrue(Calculator.AdditionPage.IsAt());
+            Calculator.GetBrowser("Chrome");
+            Calculator.LoadUrlToWebBrowser();
+            Assert.IsTrue(Calculator.IsAtPage());
         }
 
         [TestMethod]
         public void Able_To_LaunchApplication_In_Firefox()
         {
-            Calculator.AdditionPage.GetBrowser("Firefox");
-            Calculator.AdditionPage.LoadUrl();
-            Assert.AreEqual(Calculator.AdditionPage.GetResult(), "answer");
+            Calculator.GetBrowser("Firefox");
+            Calculator.LoadUrlToWebBrowser();
+            Assert.AreEqual("answer", Calculator.GetResult());
         }
 
         [TestMethod]
         [Ignore]
         public void Able_To_LaunchApplication_In_IE()
         {
-            Calculator.AdditionPage.GetBrowser("IE");
-            Calculator.AdditionPage.LoadUrl();
-            Assert.AreEqual(Calculator.AdditionPage.GetResult(), "answer");
+            Calculator.GetBrowser("IE");
+            Calculator.LoadUrlToWebBrowser();
+            Assert.AreEqual("answer", Calculator.GetResult());
         }
     }
 }
