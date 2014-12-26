@@ -4,4 +4,4 @@ REM Delete Test Result file of previous run from the workspace
 DEL %WORKSPACE%\CodingTestResults.trx 
 
 REM Run all tests
-%MSTEST_EXE_PATH%\MSTest.exe /testcontainer:%WORKSPACE%\Tests\bin\Debug\Tests.dll /resultsfile:%WORKSPACE%\CodingTestResults.trx 
+%MSTEST_EXE_PATH%\MSTest.exe /testcontainer:%WORKSPACE%\Tests\bin\Release\Tests.dll /resultsfile:%WORKSPACE%\CodingTestResults.trx 
