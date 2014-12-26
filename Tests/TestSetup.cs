@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestFramework;
 
@@ -10,16 +10,14 @@ namespace Tests
         [TestInitialize]
         public void TestInitialize()
         {
-            Calculator.AdditionPage.URL = "https://www.calcatraz.com/calculator/api?c=[number][operator][number]";
-            Calculator.AdditionPage.pageTitle = "https://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.URL = "https://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.pageTitle = "https://www.calcatraz.com/calculator/api?c=[number][operator][number]";
         }
 
         [TestCleanup]
         public void CleanUp()
         {
-            Browser.Close();
+            Calculator.CloseBrowser();
         }
-
-
     }
 }
