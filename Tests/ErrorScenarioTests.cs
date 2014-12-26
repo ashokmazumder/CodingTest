@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestFramework;
 
@@ -10,27 +10,24 @@ namespace Tests
         [TestMethod]
         public void AddTwoString()
         {
-            Calculator.AdditionPage.GetBrowser("Firefox");
-            Calculator.AdditionPage.AddTwoString("abc", "xyz");
-            Calculator.AdditionPage.LoadUrl();
-            Assert.AreEqual(Calculator.AdditionPage.GetResult(),"answer");
+            Calculator.GetBrowser("Firefox");
+            Calculator.AdditionOperation.AddTwoString("abc", "xyz");
+            Assert.AreEqual("Error: Incorrect datatype", Calculator.GetResult()); ;
         }
 
         [TestMethod]
         public void PerformAddWithOneElement()
         {
-            Calculator.AdditionPage.GetBrowser("Firefox");
-            Calculator.AdditionPage.PerformAddWithOneElement(2);
-            Calculator.AdditionPage.LoadUrl();
-            Assert.AreEqual(Calculator.AdditionPage.GetResult(), Convert.ToString(2));
+            Calculator.GetBrowser("Firefox");
+            Calculator.AdditionOperation.PerformAddWithOneElement(2);
+            Assert.AreEqual("Error: Enter second number", Calculator.GetResult());
         }
         [TestMethod]
         public void AddTwoNumberWhenOperatorMissing()
         {
-            Calculator.AdditionPage.GetBrowser("Firefox");
-            Calculator.AdditionPage.AddTwoNumberWhenOperatorMissing(2, 5);
-            Calculator.AdditionPage.LoadUrl();
-            Assert.AreEqual(Calculator.AdditionPage.GetResult(), Convert.ToString(25));
+            Calculator.GetBrowser("Firefox");
+            Calculator.AdditionOperation.AddTwoNumberWhenOperatorMissing(2, 5);
+            Assert.AreEqual("Error: Operator Missing", Calculator.GetResult());
         }
     }
 }
