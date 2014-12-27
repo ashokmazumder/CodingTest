@@ -7,3 +7,12 @@ C:\Users\ashok.majumder\Documents\CodingTest\Tests\bin\Release\WebDriver.xml
 C:\Users\ashok.majumder\Documents\CodingTest\Tests\obj\Release\Tests.csprojResolveAssemblyReference.cache
 C:\Users\ashok.majumder\Documents\CodingTest\Tests\obj\Release\Tests.dll
 C:\Users\ashok.majumder\Documents\CodingTest\Tests\obj\Release\Tests.pdb
+C:\CodingTest\Tests\bin\Release\Tests.dll
+C:\CodingTest\Tests\bin\Release\Tests.pdb
+C:\CodingTest\Tests\bin\Release\TestFramework.dll
+C:\CodingTest\Tests\bin\Release\WebDriver.dll
+C:\CodingTest\Tests\bin\Release\TestFramework.pdb
+C:\CodingTest\Tests\bin\Release\WebDriver.xml
+C:\CodingTest\Tests\obj\Release\Tests.csprojResolveAssemblyReference.cache
+C:\CodingTest\Tests\obj\Release\Tests.dll
+C:\CodingTest\Tests\obj\Release\Tests.pdb

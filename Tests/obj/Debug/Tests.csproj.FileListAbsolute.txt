@@ -16,3 +16,12 @@ C:\Users\ashok.majumder\Documents\CodingTest\Tests\bin\Debug\WebDriver.xml
 C:\Users\ashok.majumder\Documents\CodingTest\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\Users\ashok.majumder\Documents\CodingTest\Tests\obj\Debug\Tests.dll
 C:\Users\ashok.majumder\Documents\CodingTest\Tests\obj\Debug\Tests.pdb
+C:\CodingTest\Tests\bin\Debug\Tests.dll
+C:\CodingTest\Tests\bin\Debug\Tests.pdb
+C:\CodingTest\Tests\bin\Debug\TestFramework.dll
+C:\CodingTest\Tests\bin\Debug\WebDriver.dll
+C:\CodingTest\Tests\bin\Debug\TestFramework.pdb
+C:\CodingTest\Tests\bin\Debug\WebDriver.xml
+C:\CodingTest\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\CodingTest\Tests\obj\Debug\Tests.dll
+C:\CodingTest\Tests\obj\Debug\Tests.pdb

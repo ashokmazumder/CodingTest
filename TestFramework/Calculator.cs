@@ -1,4 +1,4 @@
-namespace TestFramework
+﻿namespace TestFramework
 {
     public static class Calculator
     {
@@ -40,13 +40,13 @@ namespace TestFramework
                 Browser.LoadUrlToWebBrowser(URL);
             }
 
-            public static void AddTwoFloatNum(float number1, float number2)
+            public static void AddTwoDoubleNumber(double number1, double number2)
             {
                 URL = GenerateUrl.generateUrl(number1, number2);
-                Browser.LoadUrlToWebBrowser(URL);           
+                Browser.LoadUrlToWebBrowser(URL);
             }
 
-            public static void AddTwoDoubleNumber(double number1, double number2)
+            public static void AddInterAndDouble(int number1, double number2)
             {
                 URL = GenerateUrl.generateUrl(number1, number2);
                 Browser.LoadUrlToWebBrowser(URL);
@@ -55,6 +55,11 @@ namespace TestFramework
             public static void AddTwoString(string string1, string string2)
             {
                 URL = GenerateUrl.generateUrl(string1, string2);
+                Browser.LoadUrlToWebBrowser(URL);
+            }
+            public static void AddIntegerAndString(int number1, string string1)
+            {
+                URL = GenerateUrl.generateUrl(number1, string1);
                 Browser.LoadUrlToWebBrowser(URL);
             }
 
@@ -67,6 +72,12 @@ namespace TestFramework
             public static void AddTwoNumberWhenOperatorMissing(int num1, int num2)
             {
                 URL = GenerateUrl.GenerateUrlWithOperatorMissiong(num1, num2);
+                Browser.LoadUrlToWebBrowser(URL);
+            }
+
+            public static void AddDoubleAndString(double number1, string string1)
+            {
+                URL = GenerateUrl.generateUrl(number1, string1);
                 Browser.LoadUrlToWebBrowser(URL);
             }
         }

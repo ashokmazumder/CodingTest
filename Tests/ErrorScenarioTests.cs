@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestFramework;
 
@@ -8,6 +8,7 @@ namespace Tests
     public class ErrorScenarioTests:TestSetup
     {
         [TestMethod]
+        [TestCategory("NegativeTests")]
         public void AddTwoString()
         {
             Calculator.GetBrowser("Firefox");
@@ -16,6 +17,7 @@ namespace Tests
         }
 
         [TestMethod]
+        [TestCategory("NegativeTests")]
         public void PerformAddWithOneElement()
         {
             Calculator.GetBrowser("Firefox");
@@ -23,6 +25,7 @@ namespace Tests
             Assert.AreEqual("Error: Enter second number", Calculator.GetResult());
         }
         [TestMethod]
+        [TestCategory("NegativeTests")]
         public void AddTwoNumberWhenOperatorMissing()
         {
             Calculator.GetBrowser("Firefox");

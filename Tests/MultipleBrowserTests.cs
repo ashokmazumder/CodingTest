@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestFramework;
 
 namespace Tests
@@ -15,6 +15,7 @@ namespace Tests
         }
 
         [TestMethod]
+        [TestCategory("SanityTests")]
         public void Able_To_LaunchApplication_In_Firefox()
         {
             Calculator.GetBrowser("Firefox");
@@ -23,12 +24,42 @@ namespace Tests
         }
 
         [TestMethod]
-        [Ignore]
         public void Able_To_LaunchApplication_In_IE()
         {
             Calculator.GetBrowser("IE");
             Calculator.LoadUrlToWebBrowser();
             Assert.AreEqual("answer", Calculator.GetResult());
+        }
+
+        [TestMethod]
+        [TestCategory("SanityTests")]
+        public void LaunchCalculatorInFirefoxWithHttp()
+        {
+            Calculator.GetBrowser("Firefox");
+            Calculator.URL = "http://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.pageTitle = "http://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.LoadUrlToWebBrowser();
+            Assert.AreEqual("answer", Calculator.GetResult());
+        }
+
+        [TestMethod]
+        public void LaunchCalculatorInChromeWithHttp()
+        {
+            Calculator.GetBrowser("Chrome");
+            Calculator.URL = "http://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.pageTitle = "http://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.LoadUrlToWebBrowser();
+            Assert.IsTrue(Calculator.IsAtPage());
+        }
+
+        [TestMethod]
+        public void LaunchCalculatorInIEWithHttp()
+        {
+            Calculator.GetBrowser("IE");
+            Calculator.URL = "http://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.pageTitle = "http://www.calcatraz.com/calculator/api?c=[number][operator][number]";
+            Calculator.LoadUrlToWebBrowser();
+            Assert.IsTrue(Calculator.IsAtPage());
         }
     }
 }
